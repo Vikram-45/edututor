@@ -11,8 +11,7 @@ import google.generativeai as genai
 load_dotenv()
 
 
-genai.configure(api_key=os.getenv("API_KEY"))
-genai.configure(api_key=os.getenv("CHATBOT_API"))
+genai.configure(api_key=os.getenv("AIzaSyDyT9Stafc9ANO30z5NYN1FJqT7zCLZL14"))
 # ✅ Use FAST model
 model = genai.GenerativeModel("gemini-flash-latest")
 
