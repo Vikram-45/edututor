@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import Navbar from '../components/Navbar'
 
-const BASE_URL = 'http://127.0.0.1:8000'
+const BASE_URL = 'https://edututor-mbl4.onrender.com'
 
 const DIFFICULTIES = ['Easy', 'Medium', 'Hard']
 const SUBJECTS = ['Mathematics', 'Physics', 'Chemistry', 'Biology', 'History', 'Geography', 'Computer Science', 'English']
