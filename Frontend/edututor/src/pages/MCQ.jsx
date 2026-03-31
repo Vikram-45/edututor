@@ -157,8 +157,8 @@ export default function MCQ() {
                         onClick={() => { setSubject(s); setCustomSubject('') }}
                         className={`text-sm py-2.5 px-3 rounded-xl border font-medium transition-all ${
                           subject === s
-                            ? 'bg-accent text-white border-accent'
-                            : 'bg-white border-gray-200 text-ink-soft hover:border-accent/50 hover:text-ink'
+                            ? 'bg-purple-600 text-white border-purple-600'
+                            : 'bg-white border-gray-200 text-ink-soft hover:bg-purple-50 hover:border-purple-300 hover:text-purple-700'
                         }`}
                       >
                         {s}
@@ -169,8 +169,8 @@ export default function MCQ() {
                       onClick={() => setSubject('Other')}
                       className={`text-sm py-2.5 px-3 rounded-xl border font-medium transition-all col-span-2 ${
                         subject === 'Other'
-                          ? 'bg-accent text-white border-accent'
-                          : 'bg-white border-gray-200 text-ink-soft hover:border-accent/50 hover:text-ink'
+                          ? 'bg-purple-600 text-white border-purple-600'
+                          : 'bg-purple border-gray-200 text-white hover:bg-purple-600 hover:border-purple-500 hover:text-white'
                       }`}
                     >
                       Other…
