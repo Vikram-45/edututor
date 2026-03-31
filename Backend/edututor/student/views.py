@@ -12,6 +12,7 @@ load_dotenv()
 
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+print("API KEY:", os.getenv("GOOGLE_API_KEY"))
 # ✅ Use FAST model
 model = genai.GenerativeModel("gemini-flash-latest")
 
