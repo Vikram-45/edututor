@@ -102,7 +102,7 @@ export default function Chatbot() {
               <div
                 className={`max-w-[75%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${
                   msg.role === 'user'
-                    ? 'bg-accent text-white rounded-br-sm'
+                    ? 'bg-accent text-white border border-accent hover:bg-accent-hover'
                     : msg.isError
                     ? 'bg-red-50 border border-red-200 text-red-600 rounded-bl-sm'
                     : 'bg-white border border-gray-200 text-ink rounded-bl-sm shadow-sm'
